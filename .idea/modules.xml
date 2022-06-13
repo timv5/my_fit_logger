@@ -3,6 +3,7 @@
   <component name="ProjectModuleManager">
     <modules>
       <module fileurl="file://$PROJECT_DIR$/.idea/my_fit_logger.iml" filepath="$PROJECT_DIR$/.idea/my_fit_logger.iml" />
+      <module fileurl="file://$PROJECT_DIR$/android/my_fit_logger_android.iml" filepath="$PROJECT_DIR$/android/my_fit_logger_android.iml" />
     </modules>
   </component>
 </project>

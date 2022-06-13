@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "1026129462895",
+    "project_id": "my-fit-logger",
+    "storage_bucket": "my-fit-logger.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:1026129462895:android:1c2013910ce0c3f9f16f9a",
+        "android_client_info": {
+          "package_name": "com.example.my_fit_logger"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "1026129462895-brl6th1vge56nvf0bo974ghtku5i6973.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAYVltLtIa_PqF3CFvsozmgk5T8hF6oSeA"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "1026129462895-brl6th1vge56nvf0bo974ghtku5i6973.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
