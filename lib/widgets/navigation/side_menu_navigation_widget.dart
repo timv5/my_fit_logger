@@ -2,6 +2,7 @@ import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class SideMenuNavigationWidget extends StatelessWidget {
 
@@ -61,22 +62,22 @@ class SideMenuNavigationWidget extends StatelessWidget {
                   ),
                   ListTile(
                     leading: const Icon(Icons.phone),
-                    title: const Text('Overview'),
+                    title: Text(AppLocalizations.of(context).overview),
                     onTap: ()=>onTap(0),
                   ),
                   ListTile(
                     leading: const Icon(Icons.settings),
-                    title: const Text('My Logs'),
+                    title: Text(AppLocalizations.of(context).myLogs),
                     onTap: ()=>onTap(1),
                   ),ListTile(
                     leading: const Icon(Icons.settings),
-                    title: const Text('Future Plans'),
+                    title: Text(AppLocalizations.of(context).futurePlans),
                     onTap: ()=>onTap(2),
                   ),
                   const Divider(height: 1,),
                   ListTile(
                     leading: const Icon(Icons.exit_to_app),
-                    title: const Text('Logout'),
+                    title: Text(AppLocalizations.of(context).logout),
                     onTap: () => FirebaseAuth.instance.signOut(),
                   ),
                 ],

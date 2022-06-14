@@ -1,5 +1,6 @@
 import 'package:flutter/material.dart';
 import 'package:flutter/cupertino.dart';
+import 'package:flutter_localizations/flutter_localizations.dart';
 import 'package:my_fit_logger/screens/auth_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_core/firebase_core.dart';
@@ -10,6 +11,8 @@ import 'package:my_fit_logger/screens/navigation/main_navigation_screen.dart';
 import 'package:my_fit_logger/screens/new_log_screen.dart';
 import 'package:my_fit_logger/screens/overview_screen.dart';
 import 'package:my_fit_logger/screens/splash_screen.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
+import 'package:my_fit_logger/l10n/l10n.dart' as SupportedLanguages;
 
 void main() async {
   WidgetsFlutterBinding.ensureInitialized();
@@ -23,6 +26,13 @@ class MyApp extends StatelessWidget {
   Widget build(BuildContext context) {
     return MaterialApp(
       title: 'My Fit Logger',
+      localizationsDelegates: const [
+        AppLocalizations.delegate,
+        GlobalMaterialLocalizations.delegate,
+        GlobalCupertinoLocalizations.delegate,
+        GlobalWidgetsLocalizations.delegate
+      ],
+      supportedLocales: SupportedLanguages.L10n.all,
       theme: ThemeData(
         primarySwatch: Colors.pink,
         backgroundColor: Colors.pink,

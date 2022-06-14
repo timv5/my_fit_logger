@@ -1,0 +1,22 @@
+{
+    "helloWorld": "Hello World!",
+        "@helloWorld": {
+          "description": "The conventional newborn programmer greeting"
+        },
+    "overview": "Overview",
+        "@overview": {
+            "description": "Navigation label for overview"
+        },
+    "myLogs": "My Logs",
+        "@myLogs": {
+            "description": "Navigation label for my logs"
+        },
+    "futurePlans": "Future Plans",
+        "@futurePlans": {
+            "description": "Navigation label for future plans"
+        },
+    "logout": "Logout",
+        "@logout": {
+            "description": "Logout label for whole app"
+        }
+}

@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 
 class OverviewScreen extends StatelessWidget {
@@ -15,7 +16,7 @@ class OverviewScreen extends StatelessWidget {
         child: Container(
           child: Column(
             children: <Widget>[
-              Text('overview body screen')
+              Text(AppLocalizations.of(context).helloWorld)
             ],
           ),
         ),

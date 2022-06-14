@@ -5,6 +5,7 @@ import 'package:my_fit_logger/screens/future_plans_screen.dart';
 import 'package:my_fit_logger/screens/my_logs_screen.dart';
 import 'package:my_fit_logger/screens/overview_screen.dart';
 import 'package:my_fit_logger/widgets/navigation/side_menu_navigation_widget.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 import '../../widgets/auth/logout_widget.dart';
 import '../auth_screen.dart';
@@ -59,18 +60,18 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
                 selectedItemColor: Theme.of(context).secondaryHeaderColor,
                 currentIndex: _selectedPageIndex,
                 type: BottomNavigationBarType.fixed,
-                items: const [
+                items: [
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.home),
-                      label: 'Overview'
+                      icon: const Icon(Icons.home),
+                      label: AppLocalizations.of(context).overview
                   ),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.next_plan),
-                      label: 'My Logs'
+                      icon: const Icon(Icons.next_plan),
+                      label: AppLocalizations.of(context).myLogs
                   ),
                   BottomNavigationBarItem(
-                      icon: Icon(Icons.fitness_center),
-                      label: 'Future Plans'
+                      icon: const Icon(Icons.fitness_center),
+                      label: AppLocalizations.of(context).futurePlans
                   ),
                 ],
               ),
