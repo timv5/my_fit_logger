@@ -18,5 +18,33 @@
     "logout": "Logout",
         "@logout": {
             "description": "Logout label for whole app"
+        },
+    "emailInput": "Email",
+        "@emailInput": {
+            "description": "Email input field placeholder"
+        },
+    "usernameInput": "Username",
+        "@usernameInput": {
+            "description": "Username input field placeholder"
+        },
+    "passwordInput": "Password",
+        "@passwordInput": {
+            "description": "Password input field placeholder"
+        },
+    "loginLabel": "Login",
+        "@loginLabel": {
+            "description": "Login label on login screen"
+        },
+    "registerLabel": "Sign Up",
+        "@registerLabel": {
+            "description": "Register label on login screen"
+        },
+    "newAccountLabel": "Create a new account",
+        "@newAccountLabel": {
+            "description": "New Account label on auth screen"
+        },
+    "haveAccountLabel": "I already have an account",
+        "@haveAccountLabel": {
+            "description": "Already have an account label on register screen"
         }
 }

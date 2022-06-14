@@ -1,6 +1,7 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:firebase_auth/firebase_auth.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class LogoutWidget extends StatelessWidget {
   const LogoutWidget({Key? key}) : super(key: key);
@@ -12,10 +13,10 @@ class LogoutWidget extends StatelessWidget {
         items: [
           DropdownMenuItem(
             child: Row(
-              children: const <Widget>[
-                Icon(Icons.exit_to_app),
-                SizedBox(width: 8,),
-                Text('Logout')
+              children: <Widget>[
+                const Icon(Icons.exit_to_app),
+                const SizedBox(width: 8,),
+                Text(AppLocalizations.of(context).logout)
               ],
             ),
             value: 'logout',

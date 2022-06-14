@@ -3,5 +3,12 @@
     "overview": "Visión general",
     "myLogs": "Mis registros",
     "futurePlans": "Planes futuros",
-    "logout": "Cerrar sesión"
+    "logout": "Cerrar sesión",
+    "emailInput": "E-mail",
+    "usernameInput": "Nombre de usuario",
+    "passwordInput": "Clave",
+    "loginLabel": "Acceso",
+    "registerLabel": "Inscribirse",
+    "newAccountLabel": "Crea una cuenta nueva",
+    "haveAccountLabel": "Ya tengo una cuenta"
 }

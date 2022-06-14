@@ -1,5 +1,6 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter_gen/gen_l10n/app_localizations.dart';
 
 class AuthFormWidget extends StatefulWidget {
 
@@ -105,8 +106,7 @@ class _AuthFormWidgetState extends State<AuthFormWidget> {
                     textCapitalization: TextCapitalization.none,
                     enableSuggestions: false,
                     keyboardType: TextInputType.emailAddress,
-                    decoration: const InputDecoration(labelText: 'Email'),
-                    validator: (inputtedEmailValue) {
+                    decoration: InputDecoration(labelText: AppLocalizations.of(context).emailInput),                    validator: (inputtedEmailValue) {
                       return _emailValidation(inputtedEmailValue!);
                     },
                     onSaved: (inputtedEmailValue) {
@@ -120,7 +120,7 @@ class _AuthFormWidgetState extends State<AuthFormWidget> {
                     textCapitalization: TextCapitalization.none,
                     enableSuggestions: false,
                     keyboardType: TextInputType.text,
-                    decoration: const InputDecoration(labelText: 'Username'),
+                    decoration: InputDecoration(labelText: AppLocalizations.of(context).usernameInput),
                     validator: (inputtedUsernameValue) {
                       return _usernameValidation(inputtedUsernameValue!);
                     },
@@ -134,7 +134,7 @@ class _AuthFormWidgetState extends State<AuthFormWidget> {
                     textCapitalization: TextCapitalization.none,
                     enableSuggestions: false,
                     keyboardType: TextInputType.text,
-                    decoration: const InputDecoration(labelText: 'Password'),
+                    decoration: InputDecoration(labelText: AppLocalizations.of(context).passwordInput),
                     obscureText: true,
                     validator: (inputtedPasswordValue) {
                       return _passwordValidation(inputtedPasswordValue!);
@@ -148,7 +148,7 @@ class _AuthFormWidgetState extends State<AuthFormWidget> {
                   if (!widget.isLoading)
                     ElevatedButton(
                         onPressed: _tryAuthenticate,
-                        child: _isLogin ? const Text('Login') : const Text('Sign Up')
+                        child: _isLogin ? Text(AppLocalizations.of(context).loginLabel) : Text(AppLocalizations.of(context).registerLabel)
                     ),
                   if (!widget.isLoading)
                     TextButton(
@@ -157,7 +157,7 @@ class _AuthFormWidgetState extends State<AuthFormWidget> {
                             _isLogin = !_isLogin;
                           });
                         },
-                        child: _isLogin ? const Text('Create a new account') : const Text('I already have an account')
+                        child: _isLogin ? Text(AppLocalizations.of(context).newAccountLabel) : Text(AppLocalizations.of(context).haveAccountLabel)
                     ),
                 ],
               ),

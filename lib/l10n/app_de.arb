@@ -3,5 +3,12 @@
     "overview": "Überblick",
     "myLogs": "Meine Protokolle",
     "futurePlans": "Zukunftspläne",
-    "logout": "Ausloggen"
+    "logout": "Ausloggen",
+    "emailInput": "E-mail",
+    "usernameInput": "E-Nutzername",
+    "passwordInput": "Passwort",
+    "loginLabel": "Anmeldung",
+    "registerLabel": "Registrieren",
+    "newAccountLabel": "Ein neues Konto erstellen",
+    "haveAccountLabel": "Ich habe bereits einen Account"
 }

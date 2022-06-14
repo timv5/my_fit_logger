@@ -27,7 +27,11 @@ class _MainNavigationScreenState extends State<MainNavigationScreen> {
   @override
   void initState() {
     _pages = [OverviewScreen(), MyLogsScreen(), FuturePlansScreen(),];
-    _pageNames = ['Overview', 'My Logs', 'Future Plans'];
+    _pageNames = [
+      AppLocalizations.of(context).overview,
+      AppLocalizations.of(context).myLogs,
+      AppLocalizations.of(context).futurePlans
+    ];
     super.initState();
   }
 

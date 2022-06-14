@@ -39,11 +39,11 @@ class SideMenuNavigationWidget extends StatelessWidget {
                         crossAxisAlignment: CrossAxisAlignment.start,
                         mainAxisAlignment: MainAxisAlignment.end,
                         children: <Widget>[
-                          const SizedBox(
+                          SizedBox(
                             width: 70,
                             height: 70,
                             child: CircleAvatar(
-                              backgroundImage: NetworkImage('https://cdn.fastly.picmonkey.com/contentful/h6goo9gw1hh6/2sNZtFAWOdP1lmQ33VwRN3/24e953b920a9cd0ff2e1d587742a2472/1-intro-photo-final.jpg?w=800&q=70'),
+                              backgroundImage: NetworkImage(userData['imageUrl']),
                             ),
                           ),
                           const SizedBox(height: 15,),
