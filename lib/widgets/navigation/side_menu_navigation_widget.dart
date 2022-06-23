@@ -74,6 +74,11 @@ class SideMenuNavigationWidget extends StatelessWidget {
                     title: Text(AppLocalizations.of(context).futurePlans),
                     onTap: ()=>onTap(2),
                   ),
+                  ListTile(
+                    leading: const Icon(Icons.message),
+                    title: Text(AppLocalizations.of(context).messages),
+                    onTap: ()=>onTap(3),
+                  ),
                   const Divider(height: 1,),
                   ListTile(
                     leading: const Icon(Icons.exit_to_app),

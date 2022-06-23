@@ -1,4 +1,6 @@
 {
+    "yes": "Yes",
+    "no": "No",
     "helloWorld": "Hello World!",
         "@helloWorld": {
           "description": "The conventional newborn programmer greeting"
@@ -46,5 +48,25 @@
     "haveAccountLabel": "I already have an account",
         "@haveAccountLabel": {
             "description": "Already have an account label on register screen"
-        }
+        },
+    "messages": "Messages",
+        "@messages": {
+            "description": "Messages navigation button to push notifications"
+        },
+    "emptyPushNotifications": "You don't have any notifications yet",
+        "@emptyPushNotifications": {
+            "description": "Label body on push notifications screen indicating empty list"
+        },
+    "emptyPushNotificationsHeader": "Notification List",
+            "@emptyPushNotificationsHeader": {
+                "description": "Label header on push notifications screen"
+            },
+    "deleteNotificationDialogHeader": "Are you sure?",
+            "@deleteNotificationDialogHeader": {
+                "description": "Label header of popup to delete notification"
+            },
+    "deleteNotificationDialogBody": "Please confirm that you want to delete this notification?",
+            "@deleteNotificationDialogBody": {
+                "description": "Label body on push notifications screen"
+            }
 }

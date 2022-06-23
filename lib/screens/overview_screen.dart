@@ -16,7 +16,7 @@ class OverviewScreen extends StatelessWidget {
         child: Container(
           child: Column(
             children: <Widget>[
-              Text(AppLocalizations.of(context).helloWorld)
+              Text(AppLocalizations.of(context).helloWorld),
             ],
           ),
         ),

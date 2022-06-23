@@ -1,4 +1,6 @@
 {
+    "yes": "Sí",
+    "no": "No",
     "helloWorld": "¡Hola Mundo!",
     "overview": "Visión general",
     "myLogs": "Mis registros",
@@ -10,5 +12,10 @@
     "loginLabel": "Acceso",
     "registerLabel": "Inscribirse",
     "newAccountLabel": "Crea una cuenta nueva",
-    "haveAccountLabel": "Ya tengo una cuenta"
+    "haveAccountLabel": "Ya tengo una cuenta",
+    "messages": "Mensajes",
+    "emptyPushNotifications": "Aún no tienes notificaciones",
+    "emptyPushNotificationsHeader": "Lista de notificaciones",
+    "deleteNotificationDialogHeader": "¿está seguro?",
+    "deleteNotificationDialogBody": "Por favor, confirme que desea eliminar esta notificación?"
 }

@@ -1,4 +1,6 @@
 {
+    "yes": "Ja",
+    "no": "Nein",
     "helloWorld": "Hallo Welt",
     "overview": "Überblick",
     "myLogs": "Meine Protokolle",
@@ -10,5 +12,10 @@
     "loginLabel": "Anmeldung",
     "registerLabel": "Registrieren",
     "newAccountLabel": "Ein neues Konto erstellen",
-    "haveAccountLabel": "Ich habe bereits einen Account"
+    "haveAccountLabel": "Ich habe bereits einen Account",
+    "messages": "Mitteilungen",
+    "emptyPushNotifications": "Sie haben noch keine Benachrichtigungen",
+    "emptyPushNotificationsHeader": "Benachrichtigungsliste",
+    "deleteNotificationDialogHeader": "Bist du dir sicher?",
+    "deleteNotificationDialogBody": "Bitte bestätigen Sie, dass Sie diese Benachrichtigung löschen möchten?"
 }
