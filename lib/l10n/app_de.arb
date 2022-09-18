@@ -17,5 +17,7 @@
     "emptyPushNotifications": "Sie haben noch keine Benachrichtigungen",
     "emptyPushNotificationsHeader": "Benachrichtigungsliste",
     "deleteNotificationDialogHeader": "Bist du dir sicher?",
-    "deleteNotificationDialogBody": "Bitte bestätigen Sie, dass Sie diese Benachrichtigung löschen möchten?"
+    "deleteNotificationDialogBody": "Bitte bestätigen Sie, dass Sie diese Benachrichtigung löschen möchten?",
+    "deleteMyLogsDialogHeader": "Bist du dir sicher?",
+    "deleteMyLogsDialogBody": "Bitte bestätigen Sie, dass Sie dieses Protokoll löschen möchten?"
 }

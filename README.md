@@ -30,3 +30,8 @@ App supports multiple languages, currently:
   - in background
   - in foreground
   - and in terminated/non-terminated state 
+
+## Add My logs screen
+- this screen included form for adding new logs
+- data is saved into local phone sqllite db
+- provider library is used here

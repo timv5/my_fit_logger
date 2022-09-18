@@ -68,5 +68,13 @@
     "deleteNotificationDialogBody": "Please confirm that you want to delete this notification?",
             "@deleteNotificationDialogBody": {
                 "description": "Label body on push notifications screen"
+            },
+    "deleteMyLogsDialogHeader": "Are you sure?",
+            "@deleteMyLogsDialogHeader": {
+                "description": "Label header of popup to delete my log"
+            },
+    "deleteMyLogsDialogBody": "Please confirm that you want to delete this log?",
+            "@deleteMyLogsDialogBody": {
+                "description": "Label body on my logs screen"
             }
 }

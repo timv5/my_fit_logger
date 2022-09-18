@@ -17,5 +17,7 @@
     "emptyPushNotifications": "Aún no tienes notificaciones",
     "emptyPushNotificationsHeader": "Lista de notificaciones",
     "deleteNotificationDialogHeader": "¿está seguro?",
-    "deleteNotificationDialogBody": "Por favor, confirme que desea eliminar esta notificación?"
+    "deleteNotificationDialogBody": "Por favor, confirme que desea eliminar esta notificación?",
+    "deleteMyLogsDialogHeader": "¿está seguro?",
+    "deleteMyLogsDialogBody": "Por favor, confirme que desea eliminar este registro?"
 }
